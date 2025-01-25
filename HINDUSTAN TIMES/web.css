@@ -1,0 +1,191 @@
+.header{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 100px;
+  background-color: rgb(1,30,41);
+  
+}
+.centre{
+  display: block;
+margin-left: auto;
+margin-right: auto;
+width: 25%;
+height:60px;
+margin-bottom: 100%;
+
+
+}
+.sect{
+  background-color:  rgb(164, 25, 25);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 100px;
+}
+.trend{
+  font-size: 14px;
+  font-family: lato, sans-serif;
+  font-weight: 900;
+  line-height: normal;
+  color: rgb(47,47,47);
+  
+  
+  width: 50%;
+}
+.left-align{
+    text-align:right;
+}
+.show{
+    font-size: 14px;
+    font-family: lato, sans-serif;
+    font-weight: 900;
+    line-height: normal;
+    color: rgb(22,184,209);
+    text-align:right;
+    margin: bottom 100px;
+   
+}
+.navi{
+    text-decoration: none;
+}
+.box1{
+    position: relative;
+    margin: 0 10px 16px;
+    padding: 10px 10px;
+    -moz-box-shadow: 0 0 6px 0 rgba(121, 121, 121, 0.3);
+    -o-box-shadow: 0 0 6px 0 rgba(121, 121, 121, 0.3);
+    box-shadow: 0 0 6px 0 rgba(121, 121, 121, 0.3);
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -o-border-radius: 4px;
+    border-radius: 4px;
+    background-color: #fff;
+    height: 85px;
+}
+.box2{
+  position: relative;
+    margin: 0 10px 16px;
+    padding: 10px 10px;
+    -moz-box-shadow: 0 0 6px 0 rgba(121, 121, 121, 0.3);
+    -o-box-shadow: 0 0 6px 0 rgba(121, 121, 121, 0.3);
+    box-shadow: 0 0 6px 0 rgba(121, 121, 121, 0.3);
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -o-border-radius: 4px;
+    border-radius: 4px;
+    background-color: #fff;
+    height: 85px;
+
+}
+.box3{
+  position: relative;
+  margin: 0 10px 16px;
+  padding: 10px 10px;
+  -moz-box-shadow: 0 0 6px 0 rgba(121, 121, 121, 0.3);
+  -o-box-shadow: 0 0 6px 0 rgba(121, 121, 121, 0.3);
+  box-shadow: 0 0 6px 0 rgba(121, 121, 121, 0.3);
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  background-color: #fff;
+  height: 85px;
+
+}
+.box4{
+  position: relative;
+  margin: 0 10px 16px;
+  padding: 10px 10px;
+  -moz-box-shadow: 0 0 6px 0 rgba(121, 121, 121, 0.3);
+  -o-box-shadow: 0 0 6px 0 rgba(121, 121, 121, 0.3);
+  box-shadow: 0 0 6px 0 rgba(121, 121, 121, 0.3);
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  background-color: #fff;
+  height: 85px;
+
+}
+.box5{
+  position: relative;
+  margin: 0 10px 16px;
+  padding: 10px 10px;
+  -moz-box-shadow: 0 0 6px 0 rgba(121, 121, 121, 0.3);
+  -o-box-shadow: 0 0 6px 0 rgba(121, 121, 121, 0.3);
+  box-shadow: 0 0 6px 0 rgba(121, 121, 121, 0.3);
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  background-color: #fff;
+  height: 85px;
+
+
+}
+.box6{
+  position: relative;
+  margin: 0 10px 16px;
+  padding: 10px 10px;
+  -moz-box-shadow: 0 0 6px 0 rgba(121, 121, 121, 0.3);
+  -o-box-shadow: 0 0 6px 0 rgba(121, 121, 121, 0.3);
+  box-shadow: 0 0 6px 0 rgba(121, 121, 121, 0.3);
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  background-color: #fff;
+  height: 85px;
+
+
+}
+.box7{
+  position: relative;
+  margin: 0 10px 16px;
+  padding: 10px 10px;
+  -moz-box-shadow: 0 0 6px 0 rgba(121, 121, 121, 0.3);
+  -o-box-shadow: 0 0 6px 0 rgba(121, 121, 121, 0.3);
+  box-shadow: 0 0 6px 0 rgba(121, 121, 121, 0.3);
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  background-color: #fff;
+  height: 85px;
+
+
+}
+.hdg3{
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  font-family: "Lato", sans-serif;
+  width: calc(100% - 108px);
+  padding: 0;
+  min-height: auto;
+  text-decoration: none;
+        
+ 
+}
+a{
+  text-decoration: none;
+  
+}
+.facebook{
+margin-left: 100%;
+}
+.ad{
+  left: 78%;
+  position: absolute;
+  top: 25%;
+  
+}
+.ad img{
+  left: 78;
+  margin: 0%;
+  position: absolute;
+  height: 400px;
+}
