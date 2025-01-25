@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Local Cafe</title>
+        <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/59/5/common.js"></script><script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/59/5/util.js"></script></head>
+    <body>
+        <div class="container">
+          
+            <header>
+                <nav>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#menu">Menu</a></li>
+                        <li><a href="#reservations">Reservations</a></li>
+                        <li><a href="#location">Location</a></li>
+                        <li><a href="#testimonials">Testimonials</a></li>
+                    </ul>
+                </nav>
+            </header>
+    
+            
+            <section id="home">
+                <h1>Welcome to Local Cafe</h1>
+                <p>Enjoy delicious food in our cozy atmosphere!</p>
+            </section>
+    
+            <section id="menu">
+                <h2>Our Menu</h2>
+                <div class="menu-grid">
+                    <div class="menu-item">
+                        <img src="./images/breakfast.jpg" alt="Dish 1">
+                        <h3>Breakfast Special</h3>
+                        <p>$12.99</p>
+                    </div>
+                    <div class="menu-item">
+                        <img src="./images/lunch.jpg" alt="Dish 2">
+                        <h3>Lunch Combo</h3>
+                        <p>$15.99</p>
+                    </div>
+                    <div class="menu-item">
+                        <img src="./images/dinner.jpg" alt="Dish 3">
+                        <h3>Dinner Delight</h3>
+                        <p>$25.99</p>
+                    </div>
+                </div>
+            </section>
+    
+            
+            <section id="reservations">
+                <h2>Make a Reservation</h2>
+                <form action="/submit" method="post">
+                    <input type="text" name="name" placeholder="Name" required="">
+                    <input type="email" name="email" placeholder="Email" required="">
+                    <input type="tel" name="phone" placeholder="Phone" required="">
+                    <input type="date" name="date" required="">
+                    <input type="time" name="time" required="">
+                    <button type="submit">Book Now</button>
+                </form>
+            </section>
+    
+            
+            <section id="location">
+                <h2>Find Us</h2>
+                <div id="map"></div>
+            </section>
+    
+            
+            <section id="testimonials">
+                <h2>What Our Customers Say</h2>
+                <div class="testimonial-grid">
+                    <div class="testimonial-item">
+                        <p>"Best cafe I've ever been to! The atmosphere is cozy and the food is delicious." - Sarah K.</p>
+                    </div>
+                    <div class="testimonial-item">
+                        <p>"I love their breakfast specials! Always leave feeling satisfied." - Mark Z.</p>
+                    </div>
+                    <div class="testimonial-item">
+                        <p>"The staff is friendly and attentive. Highly recommend!" - Emily G.</p>
+                    </div>
+                </div>
+            </section>
+    
+            
+            <footer>
+                <p>© 2023 Local Cafe. All rights reserved.</p>
+            </footer>
+        </div>
+    
+        <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&amp;callback=initMap" async="" defer=""></script>
+    
+    
+    </body>
+</html>
